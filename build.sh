@@ -13,7 +13,7 @@ SUPPORTDIR="$(pwd)"
 
 case `uname -sm` in
     *Darwin*)
-       CC=gcc-10
+       CC=gcc-12
        LIBTOOLIZE=glibtoolize
        ;;
     *CYGWIN*)
